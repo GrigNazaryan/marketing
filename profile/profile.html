@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="profile.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <a href="../index.html" class="link2">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </a>
+            <div class="logo"></div>
+            <div class="box1">
+                <h2 class="title">GLOSS Beauty Space</h2>
+                <div class="address_box">
+                    <a class="address link" href="#item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Vazgen Sargsyan St, 26</span>
+                    </a>
+                    <a class="time2 link" href="#item">
+                        <ion-icon name="alarm-outline"></ion-icon>
+                        <span>10:00-20:00</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="box2">
+                <h2 class="contact">
+                    Контакты
+                </h2>
+                <div class="address_box">
+                    <a class="address link" href="">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+374 44 27-27-77</span>
+                    </a>
+                    <a class="time link" href="https://www.instagram.com/glossbeautyspace/">
+                        <ion-icon name="globe-outline"></ion-icon>
+                        <span>www.instagram.com/glossbeautyspace/</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="location">
+                <h2>Расположение</h2>
+                <a class="address2 link" href="#item">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span id="copyText" onclick="copyToClipboard()">Vazgen Sargsyan St, 26</span>
+                    <div id="copyTooltip">✅ Скопировано!</div>
+                </a>
+                <div class="map_bg">
+
+                </div>
+            </div>
+            <button class="profile_btn">
+                Записаться
+            </button>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
